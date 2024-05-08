@@ -2,9 +2,14 @@ body{
     background-color: #3B4351;
 }
 
+.section-img{
+    margin-top: 10%;
+}
+
 .my-box{
     width: 600px;
     height: 350px;
+    margin-bottom: 60px;
 }
 
 .my-space{
@@ -12,4 +17,8 @@ body{
     margin: 0 auto;
     width: 100%;
     height: 100%;
+}
+
+label {
+    cursor: pointer;
 }

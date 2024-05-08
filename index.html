@@ -17,13 +17,27 @@
     </head>
 
     <body>
-        <main class="vh-100 container d-flex justify-content-center align-items-center">
+        <section class="section-img container d-flex justify-content-center align-items-center">
             <div class="my-box bg-light">
                 <button class="my-space fs-1 fw-bold" type="button">
-                    IMMAGINE
+                    RIPRODUCI UN'IMMAGINE CASUALE
                 </button>
-            </div>
-        </main>
+            </section>
+        </div>
+
+        <section class="container all-filters text-light d-flex justify-content-around">
+            <p class="text-center">
+                <label for="slider">Grayscale</label for="slider"> <br>
+
+                <input id="slider" class="slider mt-3 d-none" type="range" min="0" max="100" value="0">
+            </p>
+
+            <!-- <p class="text-center">
+                <label for="slider">Saturate</label for="slider"> <br>
+
+                <input id="slider" class="slider mt-3 d-none" type="range" min="0" max="100" value="0">
+            </p> -->
+        </section>
 
         <!-- BOOTSTRAP JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
